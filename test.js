@@ -258,7 +258,7 @@ describe("Medium", function() {
         const result = -3330353.0000;
         expect(Number(expressionCalculator(expr).toFixed(4))).to.equal(result);
     });
-});
+ });
 
 describe("Hard", function() {
     it("Nested brackets test 1", function() {
@@ -439,4 +439,4 @@ describe("Hard", function() {
         const result = 72.6846;
         expect(Number(expressionCalculator(expr).toFixed(4))).to.equal(result);
     });
-})
+});
